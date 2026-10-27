@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ticket Booking</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1> MOVIE TICKET BOOKING </h1>
+        <nav>
+            <a href="index.html">Trang chủ</a>
+            <a href="#movies">Phim đang chiếu</a>
+            <a href="#contact">Liên hệ</a>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <h2>Chào mừng đến với rạp phim trực tuyến</h2>
+        <p>Khám phá những bộ phim hấp dẫn và đặt vé ngay hôm nay!</p>
+    </section>
+
+    <section id="movies">
+        <h2>Phim đang chiếu</h2>
+
+        <div class="movie-list">
+            <div class="movie">
+                <img src="images/movie1.jpg" alt="Phim 1">
+                <h3>Avengers</h3>
+                <p>Thể loại: Hành động</p>
+                <button onclick="bookTicket('Avengers')">Đặt vé</button>
+            </div>
+
+            <div class="movie">
+                <img src="images/movie2.jpg" alt="Phim 2">
+                <h3>Spider-Man</h3>
+                <p>Thể loại: Phiêu lưu</p>
+                <button onclick="bookTicket('Spider-Man')">Đặt vé</button>
+            </div>
+
+            <div class="movie">
+                <img src="images/movie3.jpg" alt="Phim 3">
+                <h3>Frozen</h3>
+                <p>Thể loại: Hoạt hình</p>
+                <button onclick="bookTicket('Frozen')">Đặt vé</button>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>Movie Ticket Booking - Website bán vé xem phim</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
